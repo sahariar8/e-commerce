@@ -30,6 +30,7 @@ const Navbar = () => {
             {
                 links?.map((link)=><Link className={`${pathName === link.path && "text-green-500"}`} key={link.path} href={link.path}>{link.title}</Link>)
             }
+            
         </ul>
     </nav>
   )
